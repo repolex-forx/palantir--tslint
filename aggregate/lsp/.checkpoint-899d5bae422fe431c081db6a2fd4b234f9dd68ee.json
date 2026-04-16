@@ -1,0 +1,25 @@
+{
+  "commit_sha": "899d5bae422fe431c081db6a2fd4b234f9dd68ee",
+  "completed_files": [],
+  "completed_types": [],
+  "stats": {
+    "graph_uri": "https://repolex.ai/r/palantir/tslint/lsp/899d5bae422fe431c081db6a2fd4b234f9dd68ee",
+    "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/899d5bae422fe431c081db6a2fd4b234f9dd68ee.nq.gz",
+    "call_sites": 40860,
+    "import_statements": 0,
+    "call_targets_resolved": 66,
+    "import_targets_resolved": 0,
+    "symbols_exported": 0,
+    "external_resolved": 0,
+    "dataflow_arg_to_param": 0,
+    "dataflow_return_to_call": 0,
+    "errors": 8382,
+    "extends_clauses": 21,
+    "implements_clauses": 4,
+    "import_modules_denormalized": 0,
+    "import_symbols_denormalized": 0,
+    "extends_class_denormalized": 21,
+    "implements_interface_denormalized": 0
+  },
+  "elapsed_seconds": 14404
+}
