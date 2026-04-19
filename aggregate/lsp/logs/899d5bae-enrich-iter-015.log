@@ -1,0 +1,16 @@
+[2026-04-18T22:53:24Z] === ENRICH ITERATION 15 START | repo=palantir/tslint sha=899d5bae ===
+[2026-04-18T22:53:24Z] [iter=15] PHASE START: enrich repo=palantir/tslint sha=899d5bae runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/899d5bae-enrich-iter-015.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/899d5bae422fe431c081db6a2fd4b234f9dd68ee.nq.gz
+[2026-04-18T22:53:27Z] [iter=15] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-04-18T22:54:20Z] [iter=15] AST store loaded triples=5270351 load_secs=51 mem_mb=1022 MB
+[2026-04-18T22:54:20Z] [iter=15] Step 2: Finding LSP targets mem_mb=1022 MB
+[2026-04-18T22:54:23Z] [iter=15] LSP targets found call_sites=40860 imports=0 extends=21 implements=4 secs=3
+[2026-04-18T22:54:25Z] [iter=15] Loaded checkpoint partial graph triples=46947
+[2026-04-18T22:54:25Z] [iter=15] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1022 MB
+[2026-04-18T22:54:55Z] [iter=15] Position index built positions=360577 nodes_with_types=403019 secs=30 mem_mb=1112 MB
+[2026-04-18T22:54:55Z] [iter=15] Step 3: Starting LSP resolution mem_mb=1112 MB already_completed_types=[] already_completed_files=0
+[2026-04-18T22:54:55Z] [iter=15] Resolving target type target_type=call_site count=40860
+[2026-04-18T22:54:55Z] [iter=15] HEARTBEAT target_type=call_site elapsed_min=1.5 files_done=0 resolved=0 errors=0 current=bin/tslint-cli.js
+[2026-04-19T02:53:44Z] [iter=15] CHECKPOINT TRIGGERED elapsed_min=240.3 files_completed=0 new_files_this_iter=0 mem_mb=1129 MB
+[2026-04-19T02:53:44Z] [iter=15] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/899d5bae422fe431c081db6a2fd4b234f9dd68ee.nq.gz triples=46947
+[2026-04-19T02:53:45Z] [iter=15] Checkpoint written, exiting with code 7
+[2026-04-19T02:53:45Z] [iter=15] PHASE END: enrich (checkpointed) elapsed_s=14420 elapsed_min=240.3 files_completed=0
