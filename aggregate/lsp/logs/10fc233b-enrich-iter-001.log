@@ -1,0 +1,86 @@
+[2026-04-23T18:16:07Z] === ENRICH ITERATION 1 START | repo=palantir/tslint sha=10fc233b ===
+[2026-04-23T18:16:07Z] [iter=1] PHASE START: enrich repo=palantir/tslint sha=10fc233b runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/10fc233b-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/10fc233b2555044b145c9bbd9f602d43e8df2216.nq.gz
+[2026-04-23T18:16:34Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=80 MB
+[2026-04-23T18:16:44Z] [iter=1] AST store loaded triples=1118364 load_secs=9 mem_mb=900 MB
+[2026-04-23T18:16:44Z] [iter=1] Step 2: Finding LSP targets mem_mb=900 MB
+[2026-04-23T18:16:46Z] [iter=1] LSP targets found call_sites=6839 imports=910 extends=31 implements=1 secs=2
+[2026-04-23T18:16:47Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=900 MB
+[2026-04-23T18:16:53Z] [iter=1] Position index built positions=78837 nodes_with_types=90030 secs=6 mem_mb=900 MB
+[2026-04-23T18:16:53Z] [iter=1] Step 3: Starting LSP resolution mem_mb=900 MB already_completed_types=[] already_completed_files=0
+[2026-04-23T18:16:53Z] [iter=1] Resolving target type target_type=call_site count=6839
+[2026-04-23T18:16:53Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.8 files_done=0 resolved=0 errors=0 current=test/executable/executableTests.ts
+[2026-04-23T18:18:26Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.3 files_done=1 resolved=0 errors=208 current=src/test.ts
+[2026-04-23T18:19:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.0 files_done=2 resolved=1 errors=293 current=src/rules/noUnsafeAnyRule.ts
+[2026-04-23T18:19:53Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.8 files_done=3 resolved=1 errors=403 current=src/rules/orderedImportsRule.ts
+[2026-04-23T18:20:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.7 files_done=4 resolved=4 errors=528 current=src/rules/noUnnecessaryTypeAssertionRule.ts
+[2026-04-23T18:21:33Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.4 files_done=6 resolved=8 errors=630 current=src/rules/noInvalidTemplateStringsRule.ts
+[2026-04-23T18:22:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.0 files_done=8 resolved=10 errors=709 current=src/rules/promiseFunctionAsyncRule.ts
+[2026-04-23T18:24:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.4 files_done=11 resolved=17 errors=1032 current=src/rules/tripleEqualsRule.ts
+[2026-04-23T18:25:23Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.3 files_done=13 resolved=18 errors=1149 current=test/rule-tester/parseTests.ts
+[2026-04-23T18:25:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.8 files_done=15 resolved=18 errors=1224 current=src/rules/radixRule.ts
+[2026-04-23T18:26:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.6 files_done=19 resolved=18 errors=1323 current=src/tslintCli.ts
+[2026-04-23T18:27:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.1 files_done=23 resolved=18 errors=1400 current=src/configuration.ts
+[2026-04-23T18:27:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.8 files_done=24 resolved=26 errors=1493 current=src/rules/noMagicNumbersRule.ts
+[2026-04-23T18:28:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=12.6 files_done=27 resolved=29 errors=1607 current=src/rules/preferObjectSpreadRule.ts
+[2026-04-23T18:29:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.8 files_done=30 resolved=36 errors=1768 current=src/rules/noNullUndefinedUnionRule.ts
+[2026-04-23T18:31:20Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=15.2 files_done=32 resolved=36 errors=1958 current=src/rules/semicolonRule.ts
+[2026-04-23T18:32:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=15.9 files_done=34 resolved=36 errors=2052 current=src/rules/curlyRule.ts
+[2026-04-23T18:32:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=16.6 files_done=37 resolved=38 errors=2146 current=src/rules/noDuplicateImportsRule.ts
+[2026-04-23T18:33:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=17.1 files_done=41 resolved=38 errors=2219 current=src/rules/arrayTypeRule.ts
+[2026-04-23T18:33:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=17.7 files_done=43 resolved=38 errors=2296 current=src/rules/noNamespaceRule.ts
+[2026-04-23T18:34:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=18.3 files_done=47 resolved=39 errors=2375 current=src/rules/completed-docs/exclusions.ts
+[2026-04-23T18:35:13Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=19.1 files_done=50 resolved=43 errors=2486 current=src/rules/strictComparisonsRule.ts
+[2026-04-23T18:35:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=19.7 files_done=52 resolved=45 errors=2563 current=src/rules/preferConditionalExpressionRule.ts
+[2026-04-23T18:36:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=20.3 files_done=54 resolved=47 errors=2645 current=test/linterTests.ts
+[2026-04-23T18:36:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=20.8 files_done=57 resolved=49 errors=2716 current=src/verify/lines.ts
+[2026-04-23T18:37:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=21.6 files_done=62 resolved=51 errors=2824 current=src/rules/strictStringExpressionsRule.ts
+[2026-04-23T18:38:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=22.2 files_done=65 resolved=51 errors=2910 current=src/rules/objectLiteralShorthandRule.ts
+[2026-04-23T18:38:52Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=22.7 files_done=68 resolved=51 errors=2983 current=src/rules/noEmptyRule.ts
+[2026-04-23T18:39:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=23.3 files_done=73 resolved=54 errors=3064 current=src/rules/forinRule.ts
+[2026-04-23T18:40:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=23.9 files_done=77 resolved=56 errors=3138 current=src/rules/noReferenceRule.ts
+[2026-04-23T18:40:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=24.4 files_done=81 resolved=56 errors=3207 current=src/rules/noInvalidThisRule.ts
+[2026-04-23T18:41:11Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=25.1 files_done=84 resolved=56 errors=3298 current=test/formatters/tapFormatterTests.ts
+[2026-04-23T18:41:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=25.6 files_done=87 resolved=56 errors=3375 current=scripts/buildDocs.ts
+[2026-04-23T18:42:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=26.3 files_done=90 resolved=58 errors=3462 current=test/ruleLoaderTests.ts
+[2026-04-23T18:42:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=26.8 files_done=94 resolved=61 errors=3538 current=test/formatters/checkstyleFormatterTests.ts
+[2026-04-23T18:43:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=27.5 files_done=98 resolved=61 errors=3623 current=src/rules/noInferrableTypesRule.ts
+[2026-04-23T18:44:09Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=28.0 files_done=100 resolved=61 errors=3698 current=src/rules/memberAccessRule.ts
+[2026-04-23T18:44:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=28.7 files_done=102 resolved=61 errors=3790 current=src/rules/noUnnecessaryInitializerRule.ts
+[2026-04-23T18:45:23Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=29.3 files_done=105 resolved=61 errors=3864 current=src/rules/variableNameRule.ts
+[2026-04-23T18:46:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=30.4 files_done=108 resolved=65 errors=4013 current=src/rules/spaceBeforeFunctionParenRule.ts
+[2026-04-23T18:47:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=31.0 files_done=113 resolved=66 errors=4107 current=src/rules/newlinePerChainedCallRule.ts
+[2026-04-23T18:47:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=31.6 files_done=117 resolved=66 errors=4186 current=src/formatters/stylishFormatter.ts
+[2026-04-23T18:48:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=32.2 files_done=120 resolved=68 errors=4258 current=src/rules/noConsecutiveBlankLinesRule.ts
+[2026-04-23T18:48:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=32.8 files_done=124 resolved=68 errors=4350 current=test/formatters/verboseFormatterTests.ts
+[2026-04-23T18:49:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=33.4 files_done=128 resolved=70 errors=4420 current=src/rules/noUnnecessaryClassRule.ts
+[2026-04-23T18:50:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=34.0 files_done=132 resolved=70 errors=4505 current=src/rules/callableTypesRule.ts
+[2026-04-23T18:50:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=34.6 files_done=136 resolved=71 errors=4592 current=src/error.ts
+[2026-04-23T18:51:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=35.2 files_done=141 resolved=75 errors=4664 current=src/rules/code-examples/onlyArrowFunctions.examples.ts
+[2026-04-23T18:51:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=35.7 files_done=146 resolved=78 errors=4734 current=src/rules/noVarKeywordRule.ts
+[2026-04-23T18:52:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=36.3 files_done=150 resolved=79 errors=4820 current=src/rules/importBlacklistRule.ts
+[2026-04-23T18:52:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=36.9 files_done=154 resolved=87 errors=4896 current=src/rules/noConstructRule.ts
+[2026-04-23T18:53:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=37.5 files_done=159 resolved=90 errors=4986 current=test/formatters/jsonFormatterTests.ts
+[2026-04-23T18:54:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=38.2 files_done=162 resolved=94 errors=5075 current=src/rules/noAsyncWithoutAwaitRule.ts
+[2026-04-23T18:54:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=38.8 files_done=168 resolved=94 errors=5164 current=src/rules/newlineBeforeReturnRule.ts
+[2026-04-23T18:55:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=39.5 files_done=175 resolved=99 errors=5253 current=src/rules/noParameterPropertiesRule.ts
+[2026-04-23T18:56:11Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=40.1 files_done=182 resolved=99 errors=5328 current=src/formatters/checkstyleFormatter.ts
+[2026-04-23T18:56:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=40.7 files_done=187 resolved=100 errors=5413 current=src/ruleLoader.ts
+[2026-04-23T18:57:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=41.4 files_done=191 resolved=101 errors=5503 current=src/rules/typeofCompareRule.ts
+[2026-04-23T18:58:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=41.9 files_done=199 resolved=107 errors=5580 current=src/rules/noUnboundMethodRule.ts
+[2026-04-23T18:58:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=42.5 files_done=207 resolved=108 errors=5647 current=src/formatters/msbuildFormatter.ts
+[2026-04-23T18:59:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=43.0 files_done=213 resolved=108 errors=5722 current=src/rules/code-examples/strictComparisons.examples.ts
+[2026-04-23T18:59:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=43.6 files_done=221 resolved=109 errors=5801 current=src/rules/noRequireImportsRule.ts
+[2026-04-23T19:00:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=44.2 files_done=230 resolved=110 errors=5873 current=src/rules/noEvalRule.ts
+[2026-04-23T19:00:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=44.7 files_done=241 resolved=112 errors=5947 current=src/rules/matchDefaultExportNameRule.ts
+[2026-04-23T19:01:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=45.2 files_done=254 resolved=113 errors=6015 current=src/language/rule/abstractRule.ts
+[2026-04-23T19:01:53Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=45.8 files_done=278 resolved=120 errors=6072 current=test/files/formatters/simple.js
+[2026-04-23T19:01:58Z] [iter=1] Target type resolved target_type=call_site resolved=123 errors=6075 secs=2705 mem_mb=900 MB
+[2026-04-23T19:01:58Z] [iter=1] Resolving target type target_type=import_statement count=910
+[2026-04-23T19:02:14Z] [iter=1] Target type resolved target_type=import_statement resolved=459 errors=0 secs=16 mem_mb=900 MB
+[2026-04-23T19:02:14Z] [iter=1] Resolving target type target_type=extends_clause count=31
+[2026-04-23T19:02:17Z] [iter=1] Target type resolved target_type=extends_clause resolved=31 errors=0 secs=3 mem_mb=900 MB
+[2026-04-23T19:02:17Z] [iter=1] Resolving target type target_type=implements_clause count=1
+[2026-04-23T19:02:17Z] [iter=1] Target type resolved target_type=implements_clause resolved=0 errors=0 secs=1 mem_mb=900 MB
+[2026-04-23T19:02:27Z] [iter=1] Step 5: Writing final enrichment file triples=83223
+[2026-04-23T19:02:29Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/10fc233b2555044b145c9bbd9f602d43e8df2216.nq.gz size_kb=1958
+[2026-04-23T19:02:29Z] [iter=1] PHASE END: enrich elapsed_s=2782 elapsed_min=46.4 total_triples=83223
